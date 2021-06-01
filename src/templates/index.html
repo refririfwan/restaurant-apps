@@ -1,16 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Restaurant Apps Starter Project</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurant Apps</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<h1>Restaurant Apps Starter Project</h1>
-<p>Hallo coders! Anda berhasil menjalankan starter project.</p>
-<p>Jangan lupa untuk menggunakan salah satu gambar yang berada pada ./images/heros sebagai background hero elemen</p>
-<img src="./images/heros/hero-image_1.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_2.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_3.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_4.jpg" width="450" alt="">
+    <nav>
+        <div class="nav__brand">
+            <h4>Hunger App</h4>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Favorite</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero__inner">
+            <h1 class="hero__title">Restaurant Apps</h1>
+            <p class="hero__tagline">Hallo Hungers! Silahkan pilih menu Favorite anda</p>
+        </div>
+    </div>
+
+    <main>
+        <section class="content">
+            <div class="latest">
+                <h1 class="latest__label">Explore Restaurant</h1>
+                <div class="posts">
+                    <article class="post-item">
+                        <img class="post-item__thumbnail" src="./images/heros/hero-image_1.jpg"
+                            alt="Gambar chef lagi masak">
+                        <div class="post-item__content">
+                            <p class="post-item__date">Kota <a href="#" class="post-item__date__author">Bandung</a>
+                            </p>
+                            <h1 class="post-item__title"><a href="#">Lorem ipsum dolor sit amet.</a></h1>
+                            <p class="post-item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                                explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi,
+                                fugit,
+                                minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                                doloremque impedit quod tempora tenetur totam vero.</p>
+                        </div>
+                    </article>
+                    <article class="post-item">
+                        <img class="post-item__thumbnail" src="./images/heros/hero-image_4.jpg" alt="makanan disajikan">
+                        <div class="post-item__content">
+                            <p class="post-item__date">Kota <a href="#" class="post-item__date__author">Bandung</a>
+                            </p>
+                            <h1 class="post-item__title"><a href="#">Lorem ipsum dolor sit amet.</a></h1>
+                            <p class="post-item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                                explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi,
+                                fugit,
+                                minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                                doloremque impedit quod tempora tenetur totam vero.</p>
+                        </div>
+                    </article>
+                    <article class="post-item">
+                        <img class="post-item__thumbnail" src="./images/heros/hero-image_3.jpg"
+                            alt="Pernak pernik restaurant">
+                        <div class="post-item__content">
+                            <p class="post-item__date">Kota <a href="#" class="post-item__date__author">Bandung</a>
+                            </p>
+                            <h1 class="post-item__title"><a href="#">Lorem ipsum dolor sit amet.</a>
+                            </h1>
+                            <p class="post-item__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                                explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi,
+                                fugit,
+                                minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                                doloremque impedit quod tempora tenetur totam vero.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>Copy Right &copy 2021 - Hunger App</h4>
+    </footer>
 </body>
+
 </html>
