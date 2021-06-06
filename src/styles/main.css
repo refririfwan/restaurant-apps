@@ -8,6 +8,30 @@ body {
     overflow-x: hidden;
 }
 
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #bf1722;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #bf1722;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 /* Navbar */
 
 nav {
@@ -31,6 +55,8 @@ nav ul li a {
     color: cornsilk;
     text-decoration: none;
     font-weight: 400;
+    display: inline-block;
+    padding: 1.3em;
 }
 
 nav .nav__brand {
@@ -190,6 +216,8 @@ main {
 .post-item__date__author {
     color: red;
     text-decoration: none;
+    display: inline-block;
+    padding: 1.5em;
 }
 
 .post-item__title {
