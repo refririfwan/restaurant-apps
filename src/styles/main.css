@@ -5,7 +5,6 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
 }
 
 .skip-link {
@@ -249,7 +248,6 @@ main {
 footer {
     background-color: #2c3e50;
     padding: 2em;
-    width: 95.3%;
     text-align: center;
 }
 
