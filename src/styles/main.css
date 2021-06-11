@@ -226,6 +226,10 @@ main {
     transition: 0.3s opacity;
 }
 
+.post-item__title a {
+    padding: 1.5em;
+}
+
 .post-item__title:hover {
     opacity: 0.5;
 }
