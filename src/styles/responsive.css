@@ -23,8 +23,9 @@
   }
 
   nav ul.slide {
-    transform: translateX(0);
+    transform: translateX(-20%);
     display: block;
+    width: 75%;
   }
 
   /* Menu */
@@ -35,6 +36,12 @@
     height: 20px;
     justify-content: space-between;
     position: relative;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
   }
 
   .menu-toggle span {
